@@ -24,7 +24,7 @@ const EditProduct = () => {
       photo,
     };
     fetch(
-      `https://techno-city-mpl1ken8j-ayan-kumars-projects.vercel.app/products/:brand/${product._id}`,
+      `https://techno-city.vercel.app/products/:brand/${product._id}`,
       {
         method: "PUT",
         headers: {

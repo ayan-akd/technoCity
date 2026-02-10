@@ -25,7 +25,7 @@ const AddProduct = () => {
     // send data to the server
 
     fetch(
-      "https://techno-city-mpl1ken8j-ayan-kumars-projects.vercel.app/products",
+      "https://techno-city.vercel.app/products",
       {
         method: "POST",
         headers: {

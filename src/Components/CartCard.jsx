@@ -26,7 +26,7 @@ const CartCard = ({ product }) => {
       if (result.isConfirmed) {
         Swal.fire("Deleted!", "Your item has been deleted.", "success");
         fetch(
-          `https://techno-city-mpl1ken8j-ayan-kumars-projects.vercel.app/cart/${_id}`,
+          `https://techno-city.vercel.app/cart/${_id}`,
           {
             method: "DELETE",
           }

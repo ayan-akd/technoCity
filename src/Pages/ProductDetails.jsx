@@ -25,7 +25,7 @@ const ProductDetails = () => {
       photo,
     };
     fetch(
-      "https://techno-city-mpl1ken8j-ayan-kumars-projects.vercel.app/cart",
+      "https://techno-city.vercel.app/cart",
       {
         method: "POST",
         headers: {

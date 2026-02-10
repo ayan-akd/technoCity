@@ -42,7 +42,7 @@ const Router = createBrowserRouter([
         element: <BrandDetails></BrandDetails>,
         loader: ({ params }) =>
           fetch(
-            `https://techno-city-mpl1ken8j-ayan-kumars-projects.vercel.app/products/${params.id}`
+            `https://techno-city.vercel.app/products/${params.id}`
           ),
       },
       {
@@ -54,7 +54,7 @@ const Router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://techno-city-mpl1ken8j-ayan-kumars-projects.vercel.app/products/:brand/${params.id}/`
+            `https://techno-city.vercel.app/products/:brand/${params.id}/`
           ),
       },
       {
@@ -66,7 +66,7 @@ const Router = createBrowserRouter([
         ),
         loader: () =>
           fetch(
-            "https://techno-city-mpl1ken8j-ayan-kumars-projects.vercel.app/cart"
+            "https://techno-city.vercel.app/cart"
           ),
       },
       {
@@ -78,7 +78,7 @@ const Router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://techno-city-mpl1ken8j-ayan-kumars-projects.vercel.app/products/:brand/${params.id}/`
+            `https://techno-city.vercel.app/products/:brand/${params.id}/`
           ),
       },
     ],
